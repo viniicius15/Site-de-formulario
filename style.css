@@ -1,0 +1,96 @@
+.conteiner{
+    display: table-cell;
+    border: solid;
+    background-color: rgb(253, 253, 253);
+    border-color: rgb(255, 255, 255);
+    height: 350px;
+}
+body{
+    background-color: rgba(172, 255, 47, 0.582);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.final{
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: green ;
+    border: solid 0,5px;
+    border-color: green;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.colunas{
+    display: flex;
+    gap: 15px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 125px;
+    margin-top: 10px;
+}
+
+h1{
+    margin-left: 15px;
+    color: rgb(10, 192, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.borda1{
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 38px;
+    border-radius: 2px;
+}
+
+.borda2{
+    border: 1px solid;
+    border-radius: 2px;
+    padding-right: 14px;
+}
+
+.bordasg{
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.bordas{
+    margin-top: 10px;
+}
+
+.frase{
+    margin-left: 30px;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 125px;
+    margin-top: 10px;
+}
+
+.termo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
